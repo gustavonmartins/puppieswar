@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Puppies War" />
+		<Option execution_dir="D:/dev/projects/cpp/SFML Teamplate/" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/PuppiesWar_server_release" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Release" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add directory="D:/dev/projects/cpp/puppieswar" />
+					<Add directory="puppieswar_r002" />
+					<Add directory="puppieswar" />
+					<Add directory="puppieswar/bin" />
+					<Add directory="puppieswar/src/graphics" />
+					<Add directory="puppieswar/src/common" />
+					<Add directory="puppieswar/src/graphics/gl" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/msys64/mingw64/lib/libglfw3.a" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../SFML chat" />
+		</Compiler>
+		<Unit filename="../SFML chat/Generic.cpp" />
+		<Unit filename="../SFML chat/Generic.hpp" />
+		<Unit filename="../SFML chat/PostMan.cpp" />
+		<Unit filename="../SFML chat/PostMan.hpp" />
+		<Unit filename="Avatar.cpp" />
+		<Unit filename="Avatar.hpp" />
+		<Unit filename="AvatarsCollection.cpp" />
+		<Unit filename="AvatarsCollection.hpp" />
+		<Unit filename="Bullet.cpp" />
+		<Unit filename="Bullet.hpp" />
+		<Unit filename="C:/msys64/mingw64/include/glad/glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.hpp" />
+		<Unit filename="GameView.cpp" />
+		<Unit filename="GameView.hpp" />
+		<Unit filename="HumanView.cpp" />
+		<Unit filename="HumanView.hpp" />
+		<Unit filename="I_ControlsInterpreter.cpp" />
+		<Unit filename="I_ControlsInterpreter.h" />
+		<Unit filename="I_Moveable.cpp" />
+		<Unit filename="I_Moveable.h" />
+		<Unit filename="I_Serializable.cpp" />
+		<Unit filename="I_Serializable.h" />
+		<Unit filename="I_UpdateableOnMainTick.cpp" />
+		<Unit filename="I_UpdateableOnMainTick.h" />
+		<Unit filename="Moveable.cpp" />
+		<Unit filename="Moveable.hpp" />
+		<Unit filename="NetworkProtocol.cpp" />
+		<Unit filename="NetworkProtocol.hpp" />
+		<Unit filename="main_server.cpp" />
+		<Unit filename="src/common/I_PartyHost.cpp" />
+		<Unit filename="src/common/I_PartyHost.h" />
+		<Unit filename="src/common/PartyGuest.cpp" />
+		<Unit filename="src/common/PartyGuest.h" />
+		<Unit filename="src/controls/GameController.cpp" />
+		<Unit filename="src/controls/GameController.hpp" />
+		<Unit filename="src/graphics/Deejay.cpp" />
+		<Unit filename="src/graphics/Deejay.h" />
+		<Unit filename="src/graphics/I_DeejaySoul.cpp" />
+		<Unit filename="src/graphics/I_DeejaySoul.h" />
+		<Unit filename="src/graphics/I_ExtractableGraphics.cpp" />
+		<Unit filename="src/graphics/I_ExtractableGraphics.h" />
+		<Unit filename="src/graphics/I_GraphicsSystem.cpp" />
+		<Unit filename="src/graphics/I_GraphicsSystem.h" />
+		<Unit filename="src/graphics/gl/Mesh.cpp" />
+		<Unit filename="src/graphics/gl/Mesh.h" />
+		<Unit filename="src/graphics/gl/ShaderCompiler.cpp" />
+		<Unit filename="src/graphics/gl/ShaderCompiler.h" />
+		<Unit filename="src/graphics/gl/Soul_OpenGL.cpp" />
+		<Unit filename="src/graphics/gl/Soul_OpenGL.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" use_define="0" update_manifest="1" do_auto_increment="0" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
