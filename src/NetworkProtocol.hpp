@@ -5,7 +5,7 @@
 
 #include <SFML/Network.hpp>
 
-#include "src/controls/GameController.hpp"
+#include "controls/GameController.hpp"
 
 
 

@@ -3,7 +3,7 @@
 
 #include <SFML/System.hpp>
 
-#include "src/controls/GameController.hpp"
+#include "controls/GameController.hpp"
 #include "AvatarsCollection.hpp"
 #include "HumanView.hpp"
 

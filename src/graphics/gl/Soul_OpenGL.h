@@ -1,7 +1,7 @@
 #ifndef OPENGLHEAD_H
 #define OPENGLHEAD_H
 
-#include "src/graphics/I_DeejaySoul.h"
+#include "graphics/I_DeejaySoul.h"
 
 #include <glad/glad.h>
 #include "GLFW/glfw3.h"

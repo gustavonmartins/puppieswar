@@ -1,7 +1,7 @@
 #ifndef I_DEEJAYHEAD_H
 #define I_DEEJAYHEAD_H
 
-#include "src/common/I_PartyHost.h"
+#include "common/I_PartyHost.h"
 
 
 struct I_DeejaySoul: I_PartyHost {

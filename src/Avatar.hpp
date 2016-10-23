@@ -6,11 +6,11 @@
 
 #include <SFML/Graphics.hpp>
 
-#include "src/graphics/I_ExtractableGraphics.h"
+#include "graphics/I_ExtractableGraphics.h"
 #include "I_UpdateableOnMainTick.h"
 #include "I_ControlsInterpreter.h"
 #include "Bullet.hpp"
-#include "src/controls/GameController.hpp"
+#include "controls/GameController.hpp"
 
 #include "Moveable.hpp"
 #include "I_Moveable.h"

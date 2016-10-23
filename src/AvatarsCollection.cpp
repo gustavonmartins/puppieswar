@@ -1,6 +1,6 @@
 #include "AvatarsCollection.hpp"
 
-#include "Generic.hpp"
+//#include "Generic.hpp"
 
 #include <SFML/Main.hpp>
 #include <SFML/System.hpp>

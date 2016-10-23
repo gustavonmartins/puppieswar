@@ -1,6 +1,6 @@
 #include "I_PartyHost.h"
 
-#include "src/common/PartyGuest.h"
+#include "common/PartyGuest.h"
 
 #include <iostream>
 

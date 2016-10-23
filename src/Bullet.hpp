@@ -4,7 +4,7 @@
 
 #include "SFML/Graphics.hpp"
 
-#include "src/graphics/I_ExtractableGraphics.h"
+#include "graphics/I_ExtractableGraphics.h"
 #include "I_UpdateableOnMainTick.h"
 #include "Moveable.hpp"
 #include "I_Moveable.h"

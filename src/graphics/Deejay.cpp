@@ -3,7 +3,7 @@
 
 #include "Deejay.h"
 
-#include "src/graphics/gl/Soul_OpenGL.h"
+#include "graphics/gl/Soul_OpenGL.h"
 
 Deejay::Deejay() :
     djSoul(nullptr) {

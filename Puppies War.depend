@@ -100,7 +100,7 @@
 	<SFML/System/Export.hpp>
 	<ostream>
 
-1473194343 
+1476743488 
 
 1438983594 c:\sfml\include\sfml\system\fileinputstream.hpp
 	<SFML/Config.hpp>
@@ -1200,8 +1200,6 @@
 	<memory>
 	"Game.hpp"
 
-1476743488 
-
 1442677723 d:\dev\projects\cpp\puppieswar\game.h
 	<SFML/Graphics.hpp>
 	<SFML/System.hpp>
@@ -2263,4 +2261,52 @@
 
 1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/I_ExtractableGraphics.cpp
 	"I_ExtractableGraphics.h"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/Avatar.cpp
+	"Avatar.hpp"
+	<cmath>
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1477212248 /home/gustavo/Documents/Todelete/puppieswar/src/Avatar.hpp
+	<list>
+	<vector>
+	<SFML/Graphics.hpp>
+	"graphics/I_ExtractableGraphics.h"
+	"I_UpdateableOnMainTick.h"
+	"I_ControlsInterpreter.h"
+	"Bullet.hpp"
+	"controls/GameController.hpp"
+	"Moveable.hpp"
+	"I_Moveable.h"
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/src/graphics/I_ExtractableGraphics.h
+	<SFML/Graphics.hpp>
+	<list>
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/src/I_UpdateableOnMainTick.h
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/src/I_ControlsInterpreter.h
+
+1477212199 /home/gustavo/Documents/Todelete/puppieswar/src/Bullet.hpp
+	<string>
+	"SFML/Graphics.hpp"
+	"graphics/I_ExtractableGraphics.h"
+	"I_UpdateableOnMainTick.h"
+	"Moveable.hpp"
+	"I_Moveable.h"
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/src/Moveable.hpp
+	<vector>
+	"I_Moveable.h"
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/src/I_Moveable.h
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/src/controls/GameController.hpp
+	<SFML/System.hpp>
+	"I_Serializable.h"
+	"I_ControlsInterpreter.h"
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/src/I_Serializable.h
+	<SFML/Network.hpp>
 

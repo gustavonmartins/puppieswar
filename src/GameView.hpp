@@ -1,7 +1,7 @@
 #ifndef GAMEVIEW_HPP_INCLUDED
 #define GAMEVIEW_HPP_INCLUDED
 
-#include "src/controls/GameController.hpp"
+#include "controls/GameController.hpp"
 
 
 

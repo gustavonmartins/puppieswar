@@ -3,8 +3,8 @@
 
 #include <memory>
 
-#include "src/common/I_PartyHost.h"
-#include "src/graphics/I_DeejaySoul.h"
+#include "common/I_PartyHost.h"
+#include "graphics/I_DeejaySoul.h"
 
 struct Deejay: I_PartyHost {
 public:

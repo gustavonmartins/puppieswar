@@ -5,8 +5,8 @@
 
 
 
-#include "src/graphics/gl/Soul_OpenGL.h"
-#include "src/graphics/I_DeejaySoul.h"
+#include "graphics/gl/Soul_OpenGL.h"
+#include "graphics/I_DeejaySoul.h"
 
 
 

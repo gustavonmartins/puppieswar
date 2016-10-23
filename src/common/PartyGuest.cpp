@@ -2,7 +2,7 @@
 
 #include "PartyGuest.h"
 
-#include "src/common/I_PartyHost.h"
+#include "common/I_PartyHost.h"
 
 #include <iostream>
 

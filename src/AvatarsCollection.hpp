@@ -3,7 +3,7 @@
 
 #include <SFML/Audio.hpp>
 
-#include "src/controls/GameController.hpp"
+#include "controls/GameController.hpp"
 #include "GameView.hpp"
 #include "I_UpdateableOnMainTick.h"
 #include "I_ControlsInterpreter.h"

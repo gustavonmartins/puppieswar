@@ -15,13 +15,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-std=c++14" />
-					<Add directory="D:/dev/projects/cpp/puppieswar" />
-					<Add directory="puppieswar_r002" />
-					<Add directory="puppieswar" />
-					<Add directory="puppieswar/bin" />
-					<Add directory="puppieswar/src/graphics" />
-					<Add directory="puppieswar/src/common" />
-					<Add directory="puppieswar/src/graphics/gl" />
+					<Add directory="src" />
 				</Compiler>
 				<Linker>
 					<Add library="C:/msys64/mingw64/lib/libglfw3.a" />
@@ -34,58 +28,110 @@
 			<Add option="-Wall" />
 			<Add directory="../SFML chat" />
 		</Compiler>
-		<Unit filename="../SFML chat/Generic.cpp" />
-		<Unit filename="../SFML chat/Generic.hpp" />
-		<Unit filename="../SFML chat/PostMan.cpp" />
-		<Unit filename="../SFML chat/PostMan.hpp" />
-		<Unit filename="Avatar.cpp" />
-		<Unit filename="Avatar.hpp" />
-		<Unit filename="AvatarsCollection.cpp" />
-		<Unit filename="AvatarsCollection.hpp" />
-		<Unit filename="Bullet.cpp" />
-		<Unit filename="Bullet.hpp" />
+		<Unit filename="../SFML chat/Generic.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../SFML chat/Generic.hpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../SFML chat/PostMan.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../SFML chat/PostMan.hpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="C:/msys64/mingw64/include/glad/glad.c">
 			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="Game.cpp" />
-		<Unit filename="Game.hpp" />
-		<Unit filename="GameView.cpp" />
-		<Unit filename="GameView.hpp" />
-		<Unit filename="HumanView.cpp" />
-		<Unit filename="HumanView.hpp" />
-		<Unit filename="I_ControlsInterpreter.cpp" />
-		<Unit filename="I_ControlsInterpreter.h" />
-		<Unit filename="I_Moveable.cpp" />
-		<Unit filename="I_Moveable.h" />
-		<Unit filename="I_Serializable.cpp" />
-		<Unit filename="I_Serializable.h" />
-		<Unit filename="I_UpdateableOnMainTick.cpp" />
-		<Unit filename="I_UpdateableOnMainTick.h" />
-		<Unit filename="Moveable.cpp" />
-		<Unit filename="Moveable.hpp" />
-		<Unit filename="NetworkProtocol.cpp" />
-		<Unit filename="NetworkProtocol.hpp" />
-		<Unit filename="main_server.cpp" />
-		<Unit filename="src/common/I_PartyHost.cpp" />
-		<Unit filename="src/common/I_PartyHost.h" />
-		<Unit filename="src/common/PartyGuest.cpp" />
-		<Unit filename="src/common/PartyGuest.h" />
-		<Unit filename="src/controls/GameController.cpp" />
-		<Unit filename="src/controls/GameController.hpp" />
-		<Unit filename="src/graphics/Deejay.cpp" />
-		<Unit filename="src/graphics/Deejay.h" />
-		<Unit filename="src/graphics/I_DeejaySoul.cpp" />
-		<Unit filename="src/graphics/I_DeejaySoul.h" />
-		<Unit filename="src/graphics/I_ExtractableGraphics.cpp" />
-		<Unit filename="src/graphics/I_ExtractableGraphics.h" />
-		<Unit filename="src/graphics/I_GraphicsSystem.cpp" />
-		<Unit filename="src/graphics/I_GraphicsSystem.h" />
-		<Unit filename="src/graphics/gl/Mesh.cpp" />
-		<Unit filename="src/graphics/gl/Mesh.h" />
-		<Unit filename="src/graphics/gl/ShaderCompiler.cpp" />
-		<Unit filename="src/graphics/gl/ShaderCompiler.h" />
-		<Unit filename="src/graphics/gl/Soul_OpenGL.cpp" />
-		<Unit filename="src/graphics/gl/Soul_OpenGL.h" />
+		<Unit filename="src/Avatar.cpp" />
+		<Unit filename="src/Avatar.hpp" />
+		<Unit filename="src/AvatarsCollection.cpp" />
+		<Unit filename="src/AvatarsCollection.hpp" />
+		<Unit filename="src/Bullet.cpp" />
+		<Unit filename="src/Bullet.hpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Game.hpp" />
+		<Unit filename="src/GameStructure.cpp" />
+		<Unit filename="src/GameStructure.hpp" />
+		<Unit filename="src/GameView.cpp" />
+		<Unit filename="src/GameView.hpp" />
+		<Unit filename="src/HumanView.cpp" />
+		<Unit filename="src/HumanView.hpp" />
+		<Unit filename="src/I_Controllable.hpp" />
+		<Unit filename="src/I_ControlsInterpreter.cpp" />
+		<Unit filename="src/I_ControlsInterpreter.h" />
+		<Unit filename="src/I_Moveable.cpp" />
+		<Unit filename="src/I_Moveable.h" />
+		<Unit filename="src/I_Serializable.cpp" />
+		<Unit filename="src/I_Serializable.h" />
+		<Unit filename="src/I_UpdateableOnMainTick.cpp" />
+		<Unit filename="src/I_UpdateableOnMainTick.h" />
+		<Unit filename="src/Moveable.cpp" />
+		<Unit filename="src/Moveable.hpp" />
+		<Unit filename="src/NetworkProtocol.cpp" />
+		<Unit filename="src/NetworkProtocol.hpp" />
+		<Unit filename="src/common/I_PartyHost.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/common/I_PartyHost.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/common/PartyGuest.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/common/PartyGuest.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/controls/GameController.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/controls/GameController.hpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/Deejay.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/Deejay.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/I_DeejaySoul.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/I_DeejaySoul.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/I_ExtractableGraphics.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/I_ExtractableGraphics.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/I_GraphicsSystem.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/I_GraphicsSystem.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/gl/Mesh.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/gl/Mesh.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/gl/ShaderCompiler.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/gl/ShaderCompiler.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/gl/Soul_OpenGL.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/graphics/gl/Soul_OpenGL.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/main_server.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

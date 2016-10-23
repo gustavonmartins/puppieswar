@@ -5,9 +5,9 @@
 #include <SFML/Window.hpp>
 #include <SFML/Network.hpp>
 
-#include "src/controls/GameController.hpp"
+#include "controls/GameController.hpp"
 #include "GameView.hpp"
-#include "src/graphics/I_ExtractableGraphics.h"
+#include "graphics/I_ExtractableGraphics.h"
 #include "I_Serializable.h"
 #include "NetworkProtocol.hpp"
 #include "PostMan.hpp"
