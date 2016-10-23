@@ -4,6 +4,8 @@
 	"Game.hpp"
 	"GameView.hpp"
 
+1460583712 hpp"
+
 1438983586 c:\sfml\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
 	<SFML/Graphics/BlendMode.hpp>
@@ -32,6 +34,8 @@
 	<SFML/Graphics/VertexArray.hpp>
 	<SFML/Graphics/View.hpp>
 
+1438979986 hics/View.hpp>
+
 1438983586 c:\sfml\include\sfml\window.hpp
 	<SFML/System.hpp>
 	<SFML/Window/Context.hpp>
@@ -46,6 +50,8 @@
 	<SFML/Window/Window.hpp>
 	<SFML/Window/WindowHandle.hpp>
 	<SFML/Window/WindowStyle.hpp>
+
+1438979986 ow/WindowStyle.hpp>
 
 1438983586 c:\sfml\include\sfml\system.hpp
 	<SFML/Config.hpp>
@@ -67,22 +73,34 @@
 	<SFML/System/Vector2.hpp>
 	<SFML/System/Vector3.hpp>
 
+1438979987 em/Vector3.hpp>
+
 1438983586 c:\sfml\include\sfml\config.hpp
 	"TargetConditionals.h"
+
+1438979986 ditionals.h"
 
 1438983594 c:\sfml\include\sfml\system\clock.hpp
 	<SFML/System/Export.hpp>
 	<SFML/System/Time.hpp>
 
+1438979995 em/Time.hpp>
+
 1438983594 c:\sfml\include\sfml\system\export.hpp
 	<SFML/Config.hpp>
+
+1438979986 ig.hpp>
 
 1438983595 c:\sfml\include\sfml\system\time.hpp
 	<SFML/System/Export.hpp>
 
+1438979994 em/Export.hpp>
+
 1438983594 c:\sfml\include\sfml\system\err.hpp
 	<SFML/System/Export.hpp>
 	<ostream>
+
+1473194343 
 
 1438983594 c:\sfml\include\sfml\system\fileinputstream.hpp
 	<SFML/Config.hpp>
@@ -102,6 +120,8 @@
 1438983594 c:\sfml\include\sfml\system\lock.hpp
 	<SFML/System/Export.hpp>
 	<SFML/System/NonCopyable.hpp>
+
+1438979993 em/NonCopyable.hpp>
 
 1438983594 c:\sfml\include\sfml\system\memoryinputstream.hpp
 	<SFML/Config.hpp>
@@ -124,6 +144,8 @@
 	<string>
 	<SFML/System/String.inl>
 
+1438979994 em/String.inl>
+
 1438983595 c:\sfml\include\sfml\system\utf.hpp
 	<SFML/Config.hpp>
 	<algorithm>
@@ -131,6 +153,8 @@
 	<string>
 	<cstdlib>
 	<SFML/System/Utf.inl>
+
+1438979995 em/Utf.inl>
 
 1438983595 c:\sfml\include\sfml\system\utf.inl
 
@@ -141,6 +165,8 @@
 	<SFML/System/NonCopyable.hpp>
 	<cstdlib>
 	<SFML/System/Thread.inl>
+
+1438979995 em/Thread.inl>
 
 1438983595 c:\sfml\include\sfml\system\thread.inl
 
@@ -153,15 +179,21 @@
 	<SFML/System/ThreadLocal.hpp>
 	<SFML/System/ThreadLocalPtr.inl>
 
+1438979995 em/ThreadLocalPtr.inl>
+
 1438983595 c:\sfml\include\sfml\system\threadlocalptr.inl
 
 1438983595 c:\sfml\include\sfml\system\vector2.hpp
 	<SFML/System/Vector2.inl>
 
+1438979995 em/Vector2.inl>
+
 1438983595 c:\sfml\include\sfml\system\vector2.inl
 
 1438983595 c:\sfml\include\sfml\system\vector3.hpp
 	<SFML/System/Vector3.inl>
+
+1438979995 em/Vector3.inl>
 
 1438983595 c:\sfml\include\sfml\system\vector3.inl
 
@@ -177,6 +209,8 @@
 1438983595 c:\sfml\include\sfml\window\glresource.hpp
 	<SFML/Window/Export.hpp>
 
+1438979995 ow/Export.hpp>
+
 1438983595 c:\sfml\include\sfml\window\contextsettings.hpp
 
 1438983595 c:\sfml\include\sfml\window\event.hpp
@@ -186,9 +220,13 @@
 	<SFML/Window/Mouse.hpp>
 	<SFML/Window/Sensor.hpp>
 
+1438979995 ow/Sensor.hpp>
+
 1438983595 c:\sfml\include\sfml\window\joystick.hpp
 	<SFML/Window/Export.hpp>
 	<SFML/System/String.hpp>
+
+1438979996 em/String.hpp>
 
 1438983595 c:\sfml\include\sfml\window\keyboard.hpp
 	<SFML/Window/Export.hpp>
@@ -196,6 +234,8 @@
 1438983595 c:\sfml\include\sfml\window\mouse.hpp
 	<SFML/Window/Export.hpp>
 	<SFML/System/Vector2.hpp>
+
+1438979994 em/Vector2.hpp>
 
 1438983595 c:\sfml\include\sfml\window\sensor.hpp
 	<SFML/Window/Export.hpp>
@@ -230,12 +270,16 @@
 1438983587 c:\sfml\include\sfml\graphics\blendmode.hpp
 	<SFML/Graphics/Export.hpp>
 
+1438979987 hics/Export.hpp>
+
 1438983587 c:\sfml\include\sfml\graphics\export.hpp
 	<SFML/Config.hpp>
 
 1438983587 c:\sfml\include\sfml\graphics\circleshape.hpp
 	<SFML/Graphics/Export.hpp>
 	<SFML/Graphics/Shape.hpp>
+
+1438979993 hics/Shape.hpp>
 
 1438983593 c:\sfml\include\sfml\graphics\shape.hpp
 	<SFML/Graphics/Export.hpp>
@@ -248,10 +292,14 @@
 	<SFML/Graphics/Export.hpp>
 	<SFML/Graphics/RenderStates.hpp>
 
+1438979987 hics/RenderStates.hpp>
+
 1438983593 c:\sfml\include\sfml\graphics\renderstates.hpp
 	<SFML/Graphics/Export.hpp>
 	<SFML/Graphics/BlendMode.hpp>
 	<SFML/Graphics/Transform.hpp>
+
+1438979993 hics/Transform.hpp>
 
 1438983593 c:\sfml\include\sfml\graphics\transform.hpp
 	<SFML/Graphics/Export.hpp>
@@ -262,6 +310,8 @@
 	<SFML/System/Vector2.hpp>
 	<algorithm>
 	<SFML/Graphics/Rect.inl>
+
+1438979993 hics/Rect.inl>
 
 1438983593 c:\sfml\include\sfml\graphics\rect.inl
 
@@ -307,10 +357,14 @@
 	<SFML/Graphics/Export.hpp>
 	<SFML/Graphics/Rect.hpp>
 
+1438979993 hics/Rect.hpp>
+
 1438983593 c:\sfml\include\sfml\graphics\texture.hpp
 	<SFML/Graphics/Export.hpp>
 	<SFML/Graphics/Image.hpp>
 	<SFML/Window/GlResource.hpp>
+
+1438979993 ow/GlResource.hpp>
 
 1438983587 c:\sfml\include\sfml\graphics\image.hpp
 	<SFML/Graphics/Export.hpp>
@@ -345,6 +399,8 @@
 	<SFML/Graphics/Export.hpp>
 	<SFML/Graphics/Texture.hpp>
 	<SFML/Graphics/RenderTarget.hpp>
+
+1438979993 hics/RenderTarget.hpp>
 
 1438983593 c:\sfml\include\sfml\graphics\renderwindow.hpp
 	<SFML/Graphics/Export.hpp>
@@ -1144,11 +1200,15 @@
 	<memory>
 	"Game.hpp"
 
+1476743488 
+
 1442677723 d:\dev\projects\cpp\puppieswar\game.h
 	<SFML/Graphics.hpp>
 	<SFML/System.hpp>
 	<vector>
 	<functional>
+
+1442677723 l>
 
 1458326926 d:\dev\projects\cpp\puppieswar\game.cpp
 	<SFML/System.hpp>
@@ -1160,8 +1220,12 @@
 	<functional>
 	"GameStatus.cpp"
 
+1446144968 s.cpp"
+
 1443958286 d:\dev\projects\cpp\puppieswar\userinput.cpp
 	<SFML/System.hpp>
+
+1444772908 em.hpp>
 
 1443958286 source:d:\dev\projects\cpp\puppieswar\userinput.cpp
 	<SFML/System.hpp>
@@ -1181,6 +1245,8 @@
 	"Triangle.hpp"
 	"Updateable.hpp"
 
+1460584285 e.hpp"
+
 1467741635 source:d:\dev\projects\cpp\puppieswar\gamestatus.cpp
 	"GameStatus.hpp"
 	"Generic.hpp"
@@ -1198,6 +1264,8 @@
 1444249961 source:d:\dev\projects\cpp\puppieswar\projectile.cpp
 	<SFML/Graphics.hpp>
 	<cmath>
+
+1472329821 hics.hpp>
 
 1444249961 d:\dev\projects\cpp\puppieswar\projectile.cpp
 	<SFML/Graphics.hpp>
@@ -1288,6 +1356,8 @@
 	<SFML/Graphics.hpp>
 	"Weapon.cpp"
 
+1472855007 p"
+
 1447016004 source:d:\dev\projects\cpp\puppieswar_r002\triangle.cpp
 	"GameController.cpp"
 	<cmath>
@@ -1305,6 +1375,8 @@
 	<cmath>
 	<SFML/Graphics.hpp>
 	"Updateable.cpp"
+
+1458073461 e.cpp"
 
 1444772908 source:d:\dev\projects\cpp\puppieswar_r002\projectile_homing.cpp
 	<SFML/Graphics.hpp>
@@ -1358,6 +1430,8 @@
 	<iostream>
 	"NetworkProtocol.hpp"
 
+1472857295 otocol.hpp"
+
 1444772908 source:d:\dev\projects\cpp\puppieswar\projectile_homing.cpp
 	<SFML/Graphics.hpp>
 	<SFML/System.hpp>
@@ -1403,6 +1477,8 @@
 	"I_Serializable.h"
 	"I_ControlsInterpreter.h"
 
+1472856970 sInterpreter.h"
+
 1462909209 d:\dev\projects\cpp\puppieswar\updateable.hpp
 	<vector>
 
@@ -1422,10 +1498,14 @@
 	"Moveable.hpp"
 	"I_Moveable.h"
 
+1476811763 e.h"
+
 1474922025 source:d:\dev\projects\cpp\puppieswar\humanview.cpp
 	"HumanView.hpp"
 	<iostream>
 	"Generic.hpp"
+
+1465685012 pp"
 
 1458331396 d:\dev\projects\cpp\puppieswar\gameview.cpp
 	"Bullet.hpp"
@@ -1449,6 +1529,8 @@
 
 1472855374 d:\dev\projects\cpp\puppieswar\gameview.hpp
 	"src/controls/GameController.hpp"
+
+1472327898 ols/GameController.hpp"
 
 1474922310 d:\dev\projects\cpp\puppieswar\humanview.hpp
 	<SFML/System.hpp>
@@ -1476,6 +1558,8 @@
 	<SFML/Audio/SoundRecorder.hpp>
 	<SFML/Audio/SoundSource.hpp>
 	<SFML/Audio/SoundStream.hpp>
+
+1438979986 o/SoundStream.hpp>
 
 1438979987 c:\sfml\debug\include\sfml\audio\inputsoundfile.hpp
 	<SFML/Audio/Export.hpp>
@@ -1514,6 +1598,8 @@
 
 1438979986 c:\sfml\debug\include\sfml\audio\alresource.hpp
 	<SFML/Audio/Export.hpp>
+
+1438979986 o/Export.hpp>
 
 1438979987 c:\sfml\debug\include\sfml\audio\outputsoundfile.hpp
 	<SFML/Audio/Export.hpp>
@@ -1554,6 +1640,8 @@
 	<vector>
 	<SFML/Audio/SoundFileFactory.inl>
 
+1438979987 o/SoundFileFactory.inl>
+
 1438979987 c:\sfml\debug\include\sfml\audio\soundfilefactory.inl
 
 1438979987 c:\sfml\debug\include\sfml\audio\soundfilereader.hpp
@@ -1572,11 +1660,15 @@
 	<iostream>
 	"GameServer.hpp"
 
+1460410508 r.hpp"
+
 1459710103 d:\dev\projects\cpp\puppieswar\gameserver.hpp
 	<SFML/System.hpp>
 	"GameController.hpp"
 	"GameStatus.hpp"
 	"HumanView.hpp"
+
+1459710103 .hpp"
 
 1476811715 source:d:\dev\projects\cpp\puppieswar\main_server.cpp
 	<iostream>
@@ -1586,8 +1678,12 @@
 	"src/graphics/gl/Soul_OpenGL.h"
 	"src/graphics/I_DeejaySoul.h"
 
+1472828975 ics/I_DeejaySoul.h"
+
 1464964827 source:d:\dev\projects\cpp\puppieswar\gamestatuscore.cpp
 	"GameStructure.hpp"
+
+1464964827 ture.hpp"
 
 1459939456 d:\dev\projects\cpp\puppieswar\gamestatuscore.h
 	<list>
@@ -1624,6 +1720,8 @@
 	<iostream>
 	<SFML/System.hpp>
 	<SFML/Main.hpp>
+
+1467756655 .hpp>
 
 1465685012 source:d:\dev\projects\cpp\sfml chat\postman.cpp
 	"PostMan.hpp"
@@ -1669,9 +1767,13 @@
 1466442104 source:d:\dev\projects\cpp\i_extractablegraphics.cpp
 	"I_ExtractableGraphics.h"
 
+1472329821 ableGraphics.h"
+
 1466442172 d:\dev\projects\cpp\i_extractablegraphics.h
 	"SFML/Graphics.hpp"
 	<list>
+
+1466442172 hics.hpp"
 
 1466528497 d:\dev\projects\cpp\puppieswar\i_extractablegraphics.h
 	<SFML/Graphics.hpp>
@@ -1685,8 +1787,12 @@
 1466447448 source:d:\dev\projects\cpp\puppieswar\i_updateable2.cpp
 	"I_Updateable2.h"
 
+1466447448 ble2.h"
+
 1466451209 source:d:\dev\projects\cpp\puppieswar\i_maintickupdateable.cpp
 	"I_MainTickUpdateable.h"
+
+1466451209 kUpdateable.h"
 
 1466451209 d:\dev\projects\cpp\puppieswar\i_maintickupdateable.h
 
@@ -1704,11 +1810,17 @@
 1472329821 source:d:\dev\projects\cpp\puppieswar\i_updateableonmaintick.cpp
 	"I_UpdateableOnMainTick.h"
 
+1472329821 bleOnMainTick.h"
+
 1472329821 source:d:\dev\projects\cpp\puppieswar\i_serializable.cpp
 	"I_Serializable.h"
 
+1472329821 zable.h"
+
 1472329821 d:\dev\projects\cpp\puppieswar\i_serializable.h
 	<SFML/Network.hpp>
+
+1472329821 ork.hpp>
 
 1472855007 d:\dev\projects\cpp\puppieswar\avatarscollection.hpp
 	<SFML/Audio.hpp>
@@ -1745,10 +1857,14 @@
 1472326425 source:d:\dev\projects\cpp\puppieswar\i_graphicssystem.cpp
 	"I_GraphicsSystem.h"
 
+1472329821 sSystem.h"
+
 1472326704 d:\dev\projects\cpp\puppieswar\i_graphicssystem.h
 
 1472326274 source:d:\dev\projects\cpp\puppieswar\i_hookabletographics.cpp
 	"I_HookableToGraphics.h"
+
+1472329821 eToGraphics.h"
 
 1472326889 d:\dev\projects\cpp\puppieswar\i_hookabletographics.h
 
@@ -1784,6 +1900,8 @@
 1472330626 source:d:\dev\projects\cpp\puppieswar\src\graphics\graphicssystem.cpp
 	"GraphicsSystem.h"
 
+1472330626 ystem.h"
+
 1472330714 d:\dev\projects\cpp\puppieswar\src\graphics\graphicssystem.h
 
 1473188689 source:d:\dev\projects\cpp\puppieswar\src\common\partyguest.cpp
@@ -1797,11 +1915,15 @@
 1472767149 source:d:\dev\projects\cpp\puppieswar\src\common\partyhost.cpp
 	"I_PartyHost.h"
 
+1472767149 st.h"
+
 1472898688 d:\dev\projects\cpp\puppieswar\src\common\i_partyhost.h
 	<vector>
 
 1472763988 source:d:\dev\projects\cpp\puppieswar\src\common\partypromoter.cpp
 	"I_PartyPromoter.h"
+
+1472763988 omoter.h"
 
 1472766595 d:\dev\projects\cpp\puppieswar\src\common\i_partypromoter.h
 
@@ -1810,6 +1932,8 @@
 	<iostream>
 	"Deejay.h"
 	"src/graphics/gl/Soul_OpenGL.h"
+
+1472894966 ics/gl/Soul_OpenGL.h"
 
 1472856165 d:\dev\projects\cpp\puppieswar\src\graphics\deejay.h
 	<memory>
@@ -1820,10 +1944,14 @@
 	"I_PartyPromoter.h"
 	"src/common/I_PartyGuest.h"
 
+1472766832 n/I_PartyGuest.h"
+
 1472799276 source:d:\dev\projects\cpp\puppieswar\src\common\i_partyguest.cpp
 	<stdexcept>
 	"I_PartyGuest.h"
 	"src/common/I_PartyHost.h"
+
+1476808779 n/I_PartyHost.h"
 
 1472898688 source:d:\dev\projects\cpp\puppieswar\src\common\i_partyhost.cpp
 	"I_PartyHost.h"
@@ -1838,6 +1966,8 @@
 
 1472767149 source:d:\dev\projects\cpp\puppieswar\src\graphics\i_deejayhead.cpp
 	"I_DeejayHead.h"
+
+1472767149 ead.h"
 
 1472828755 source:d:\dev\projects\cpp\puppieswar\src\graphics\gl\openglhead.cpp
 	"OpenGLHead.h"
@@ -1865,10 +1995,14 @@
 	<iostream>
 	<exception>
 
+1476565603 >
+
 1476811442 d:\dev\projects\cpp\puppieswar\src\graphics\gl\soul_opengl.h
 	"src/graphics/I_DeejaySoul.h"
 	<glad/glad.h>
 	"GLFW/glfw3.h"
+
+1476811442 3.h"
 
 1476565603 source:d:\dev\projects\cpp\puppieswar\src\graphics\gl\shadercompiler.cpp
 	<GL/glew.h>
@@ -1901,4 +2035,232 @@
 	<stdlib.h>
 	<string.h>
 	<glad/glad.h>
+
+1470610857 .h>
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/Avatar.cpp
+	"Avatar.hpp"
+	<cmath>
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/Avatar.hpp
+	<list>
+	<vector>
+	<SFML/Graphics.hpp>
+	"src/graphics/I_ExtractableGraphics.h"
+	"I_UpdateableOnMainTick.h"
+	"I_ControlsInterpreter.h"
+	"Bullet.hpp"
+	"src/controls/GameController.hpp"
+	"Moveable.hpp"
+	"I_Moveable.h"
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/I_ExtractableGraphics.h
+	<SFML/Graphics.hpp>
+	<list>
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/I_UpdateableOnMainTick.h
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/I_ControlsInterpreter.h
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/Bullet.hpp
+	<string>
+	"SFML/Graphics.hpp"
+	"src/graphics/I_ExtractableGraphics.h"
+	"I_UpdateableOnMainTick.h"
+	"Moveable.hpp"
+	"I_Moveable.h"
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/Moveable.hpp
+	<vector>
+	"I_Moveable.h"
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/I_Moveable.h
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/controls/GameController.hpp
+	<SFML/System.hpp>
+	"I_Serializable.h"
+	"I_ControlsInterpreter.h"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/AvatarsCollection.cpp
+	"AvatarsCollection.hpp"
+	"Generic.hpp"
+	<SFML/Main.hpp>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<glm/glm.hpp>
+	<vector>
+	<functional>
+	<memory>
+	<random>
+	<iostream>
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/AvatarsCollection.hpp
+	<SFML/Audio.hpp>
+	"src/controls/GameController.hpp"
+	"GameView.hpp"
+	"I_UpdateableOnMainTick.h"
+	"I_ControlsInterpreter.h"
+	"Avatar.hpp"
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/GameView.hpp
+	"src/controls/GameController.hpp"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/Bullet.cpp
+	"Bullet.hpp"
+	<iostream>
+	<string>
+	<cmath>
+	<SFML/Graphics.hpp>
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/Game.cpp
+	<SFML/System.hpp>
+	<iostream>
+	<memory>
+	"Game.hpp"
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/Game.hpp
+	<SFML/System.hpp>
+	"src/controls/GameController.hpp"
+	"AvatarsCollection.hpp"
+	"HumanView.hpp"
+	"PostMan.hpp"
+	"Generic.hpp"
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/HumanView.hpp
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	<SFML/Network.hpp>
+	"src/controls/GameController.hpp"
+	"GameView.hpp"
+	"src/graphics/I_ExtractableGraphics.h"
+	"I_Serializable.h"
+	"NetworkProtocol.hpp"
+	"PostMan.hpp"
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/I_Serializable.h
+	<SFML/Network.hpp>
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/NetworkProtocol.hpp
+	<iostream>
+	<SFML/Network.hpp>
+	"src/controls/GameController.hpp"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/GameView.cpp
+	"GameView.hpp"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/HumanView.cpp
+	"HumanView.hpp"
+	<iostream>
+	"Generic.hpp"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/I_ControlsInterpreter.cpp
+	"I_ControlsInterpreter.h"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/I_Moveable.cpp
+	"I_Moveable.h"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/I_Serializable.cpp
+	"I_Serializable.h"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/I_UpdateableOnMainTick.cpp
+	"I_UpdateableOnMainTick.h"
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/main_server.cpp
+	<iostream>
+	<string>
+	<memory>
+	"Game.hpp"
+	"src/graphics/gl/Soul_OpenGL.h"
+	"src/graphics/I_DeejaySoul.h"
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/gl/Soul_OpenGL.h
+	"src/graphics/I_DeejaySoul.h"
+	<glad/glad.h>
+	"GLFW/glfw3.h"
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/I_DeejaySoul.h
+	"src/common/I_PartyHost.h"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/Moveable.cpp
+	"Moveable.hpp"
+	<iostream>
+	<cmath>
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/NetworkProtocol.cpp
+	"NetworkProtocol.hpp"
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/common/I_PartyHost.cpp
+	"I_PartyHost.h"
+	"src/common/PartyGuest.h"
+	<iostream>
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/common/I_PartyHost.h
+	<vector>
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/common/PartyGuest.cpp
+	<stdexcept>
+	"PartyGuest.h"
+	"src/common/I_PartyHost.h"
+	<iostream>
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/common/PartyGuest.h
+	<vector>
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/controls/GameController.cpp
+	"GameController.hpp"
+	<SFML/System.hpp>
+	"Avatar.hpp"
+	<iostream>
+	"NetworkProtocol.hpp"
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/Deejay.cpp
+	<stdexcept>
+	<iostream>
+	"Deejay.h"
+	"src/graphics/gl/Soul_OpenGL.h"
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/Deejay.h
+	<memory>
+	"src/common/I_PartyHost.h"
+	"src/graphics/I_DeejaySoul.h"
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/gl/Mesh.cpp
+	"Mesh.h"
+	<iostream>
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/gl/Mesh.h
+	<vector>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	"I_Moveable.h"
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/gl/ShaderCompiler.cpp
+	"ShaderCompiler.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/gl/ShaderCompiler.h
+	<glad/glad.h>
+	<string>
+	<vector>
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/gl/Soul_OpenGL.cpp
+	"Soul_OpenGL.h"
+	<iostream>
+	<exception>
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/I_DeejaySoul.cpp
+	"I_DeejaySoul.h"
+	<iostream>
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/I_ExtractableGraphics.cpp
+	"I_ExtractableGraphics.h"
 
