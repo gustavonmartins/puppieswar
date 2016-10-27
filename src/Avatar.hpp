@@ -11,11 +11,12 @@
 #include "I_ControlsInterpreter.h"
 #include "Bullet.hpp"
 #include "controls/GameController.hpp"
+#include "common/PartySystem.h"
 
 #include "Moveable.hpp"
 #include "I_Moveable.h"
 
-struct Avatar:I_Moveable, I_ExtractableGraphics, I_UpdateableOnMainTick, I_ControlsInterpreter {
+struct Avatar:I_Moveable, I_ExtractableGraphics, I_UpdateableOnMainTick, I_ControlsInterpreter,PartyGuest {
 
     Avatar();
     virtual ~Avatar();

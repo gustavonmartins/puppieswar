@@ -2,159 +2,244 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Release" />
-	<File name="src/Avatar.hpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/AvatarsCollection.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="281" topLine="0" />
+			<Cursor1 position="1035" topLine="0" />
 		</Cursor>
+		<Folding>
+			<Collapse line="17" />
+			<Collapse line="19" />
+			<Collapse line="24" />
+			<Collapse line="28" />
+			<Collapse line="34" />
+			<Collapse line="41" />
+			<Collapse line="43" />
+			<Collapse line="58" />
+		</Folding>
 	</File>
-	<File name="src/graphics/Deejay.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/common/PartySystem.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="102" topLine="0" />
+			<Cursor1 position="359" topLine="0" />
 		</Cursor>
+		<Folding>
+			<Collapse line="4" />
+			<Collapse line="8" />
+			<Collapse line="12" />
+			<Collapse line="17" />
+			<Collapse line="18" />
+			<Collapse line="23" />
+			<Collapse line="36" />
+			<Collapse line="40" />
+			<Collapse line="44" />
+			<Collapse line="45" />
+			<Collapse line="50" />
+			<Collapse line="51" />
+			<Collapse line="59" />
+			<Collapse line="60" />
+			<Collapse line="70" />
+			<Collapse line="71" />
+			<Collapse line="77" />
+			<Collapse line="78" />
+		</Folding>
 	</File>
-	<File name="src/graphics/I_GraphicsSystem.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/graphics/DeejaySystem.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="234" topLine="0" />
+			<Cursor1 position="311" topLine="0" />
 		</Cursor>
+		<Folding>
+			<Collapse line="10" />
+		</Folding>
 	</File>
-	<File name="src/main_server.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/graphics/DeejaySystem.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="134" topLine="0" />
+			<Cursor1 position="150" topLine="15" />
 		</Cursor>
-	</File>
-	<File name="src/Bullet.hpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="121" topLine="0" />
-		</Cursor>
+		<Folding>
+			<Collapse line="27" />
+			<Collapse line="31" />
+			<Collapse line="33" />
+			<Collapse line="40" />
+			<Collapse line="58" />
+			<Collapse line="59" />
+			<Collapse line="66" />
+			<Collapse line="67" />
+		</Folding>
 	</File>
 	<File name="src/graphics/gl/ShaderCompiler.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="76" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="../SFML chat/Generic.hpp" open="0" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/graphics/I_GraphicsSystem.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="301" topLine="0" />
+			<Cursor1 position="146" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/common/PartyGuest.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/Avatar.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="61" topLine="0" />
+			<Cursor1 position="829" topLine="15" />
 		</Cursor>
+		<Folding>
+			<Collapse line="17" />
+			<Collapse line="35" />
+			<Collapse line="39" />
+			<Collapse line="40" />
+			<Collapse line="45" />
+			<Collapse line="49" />
+			<Collapse line="53" />
+			<Collapse line="57" />
+			<Collapse line="61" />
+			<Collapse line="65" />
+			<Collapse line="69" />
+			<Collapse line="75" />
+			<Collapse line="106" />
+			<Collapse line="107" />
+			<Collapse line="119" />
+			<Collapse line="124" />
+			<Collapse line="129" />
+			<Collapse line="133" />
+			<Collapse line="137" />
+			<Collapse line="141" />
+			<Collapse line="146" />
+			<Collapse line="150" />
+			<Collapse line="154" />
+			<Collapse line="158" />
+			<Collapse line="162" />
+			<Collapse line="166" />
+			<Collapse line="170" />
+			<Collapse line="174" />
+			<Collapse line="178" />
+			<Collapse line="182" />
+		</Folding>
 	</File>
-	<File name="C:/msys64/mingw64/include/glad/glad.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/graphics/gl/Mesh.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="23879" topLine="535" />
+			<Cursor1 position="14" topLine="0" />
 		</Cursor>
-	</File>
-	<File name="src/graphics/I_DeejaySoul.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="60" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/controls/GameController.hpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="547" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/graphics/gl/ShaderCompiler.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/AvatarsCollection.cpp" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="175" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/common/PartyGuest.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="166" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/graphics/gl/Mesh.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="667" topLine="4" />
-		</Cursor>
+		<Folding>
+			<Collapse line="13" />
+			<Collapse line="42" />
+		</Folding>
 	</File>
 	<File name="src/graphics/I_ExtractableGraphics.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="391" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/graphics/gl/Soul_OpenGL.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/graphics/gl/Mesh.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="56" topLine="0" />
+			<Cursor1 position="667" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="3" />
+			<Collapse line="7" />
+			<Collapse line="12" />
+			<Collapse line="13" />
+			<Collapse line="24" />
+			<Collapse line="40" />
+			<Collapse line="41" />
+			<Collapse line="48" />
+			<Collapse line="54" />
+			<Collapse line="58" />
+			<Collapse line="62" />
+			<Collapse line="66" />
+			<Collapse line="70" />
+			<Collapse line="97" />
+			<Collapse line="114" />
+			<Collapse line="122" />
+			<Collapse line="123" />
+			<Collapse line="131" />
+			<Collapse line="138" />
+			<Collapse line="156" />
+			<Collapse line="164" />
+			<Collapse line="166" />
+			<Collapse line="177" />
+			<Collapse line="178" />
+		</Folding>
+	</File>
+	<File name="src/Bullet.hpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="121" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/GameView.hpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/AvatarsCollection.hpp" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="276" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="13" />
+		</Folding>
+	</File>
+	<File name="src/main_server.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="69" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/HumanView.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1251" topLine="56" />
+		</Cursor>
+		<Folding>
+			<Collapse line="11" />
+			<Collapse line="15" />
+			<Collapse line="22" />
+			<Collapse line="32" />
+		</Folding>
+	</File>
+	<File name="src/GameView.hpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="74" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/graphics/I_GraphicsSystem.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/graphics/gl/VeejaySoul_OpenGL.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="137" topLine="0" />
+			<Cursor1 position="277" topLine="0" />
 		</Cursor>
+		<Folding>
+			<Collapse line="7" />
+			<Collapse line="13" />
+			<Collapse line="21" />
+			<Collapse line="31" />
+			<Collapse line="46" />
+			<Collapse line="62" />
+			<Collapse line="68" />
+			<Collapse line="69" />
+			<Collapse line="76" />
+			<Collapse line="77" />
+		</Folding>
 	</File>
-	<File name="src/graphics/gl/Soul_OpenGL.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/NetworkProtocol.hpp" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="703" topLine="0" />
+			<Cursor1 position="142" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src/controls/GameController.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="503" topLine="0" />
+			<Cursor1 position="125" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="25" />
+			<Collapse line="38" />
+			<Collapse line="42" />
+			<Collapse line="47" />
+		</Folding>
+	</File>
+	<File name="src/controls/GameController.hpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="149" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="7" />
+		</Folding>
+	</File>
+	<File name="src/graphics/gl/ShaderCompiler.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/HumanView.hpp" open="1" top="1" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="../chat/PostMan.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="396" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/graphics/gl/Mesh.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="77" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="../SFML chat/Generic.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="83" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/common/I_PartyHost.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="97" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="../SFML chat/PostMan.hpp" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="871" topLine="5" />
-		</Cursor>
-	</File>
-	<File name="src/AvatarsCollection.hpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="107" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/graphics/Deejay.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="78" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/Game.hpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="96" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/graphics/I_DeejaySoul.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="169" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="../SFML chat/PostMan.cpp" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="5340" topLine="0" />
+			<Cursor1 position="13" topLine="0" />
 		</Cursor>
 		<Folding>
 			<Collapse line="2" />
@@ -184,19 +269,96 @@
 			<Collapse line="209" />
 			<Collapse line="211" />
 			<Collapse line="217" />
+			<Collapse line="221" />
+			<Collapse line="222" />
+			<Collapse line="226" />
+			<Collapse line="231" />
+			<Collapse line="236" />
 			<Collapse line="242" />
 			<Collapse line="244" />
 			<Collapse line="251" />
 		</Folding>
 	</File>
-	<File name="src/common/I_PartyHost.cpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/common/PartySystem.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="38" topLine="0" />
+			<Cursor1 position="690" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="7" />
+			<Collapse line="25" />
+		</Folding>
+	</File>
+	<File name="src/graphics/I_ExtractableGraphics.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="171" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/NetworkProtocol.hpp" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/GameView.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="142" topLine="0" />
+			<Cursor1 position="217" topLine="0" />
 		</Cursor>
+	</File>
+	<File name="src/Avatar.hpp" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3619" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="18" />
+			<Collapse line="26" />
+			<Collapse line="30" />
+			<Collapse line="36" />
+			<Collapse line="44" />
+		</Folding>
+	</File>
+	<File name="src/graphics/gl/DeejaySoul_OpenGL.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="331" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="9" />
+		</Folding>
+	</File>
+	<File name="src/graphics/I_GraphicsSystem.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="160" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/Game.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5518" topLine="126" />
+		</Cursor>
+	</File>
+	<File name="src/Game.hpp" open="1" top="1" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1756" topLine="69" />
+		</Cursor>
+	</File>
+	<File name="src/HumanView.hpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="269" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/Bullet.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="571" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="12" />
+			<Collapse line="24" />
+			<Collapse line="38" />
+			<Collapse line="42" />
+			<Collapse line="46" />
+			<Collapse line="50" />
+			<Collapse line="54" />
+			<Collapse line="59" />
+			<Collapse line="63" />
+			<Collapse line="67" />
+			<Collapse line="71" />
+			<Collapse line="75" />
+			<Collapse line="83" />
+			<Collapse line="87" />
+			<Collapse line="91" />
+			<Collapse line="95" />
+		</Folding>
 	</File>
 </CodeBlocks_layout_file>

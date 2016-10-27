@@ -2,8 +2,8 @@
 #define GAMECONTROLLER_HPP_INCLUDED
 #include <SFML/System.hpp>
 
-#include "I_Serializable.h"
-#include "I_ControlsInterpreter.h"
+#include "../I_Serializable.h"
+#include "../I_ControlsInterpreter.h"
 
 struct GameController: I_Serializable {
     double MouseSpeed;

@@ -2,10 +2,10 @@
 
 #include <SFML/System.hpp>
 
-#include "Avatar.hpp"
+#include "../Avatar.hpp"
 #include <iostream>
 
-#include "NetworkProtocol.hpp"
+#include "../NetworkProtocol.hpp"
 
 GameController::GameController():
     MouseSpeed(0.1),

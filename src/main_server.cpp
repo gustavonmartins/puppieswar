@@ -1,16 +1,14 @@
 #include <iostream>
 #include <string>
-#include <memory>
 #include "Game.hpp"
 
 
 
-#include "graphics/gl/Soul_OpenGL.h"
-#include "graphics/I_DeejaySoul.h"
 
 
 
-int main2() {
+
+int main() {
 
     Game myGame;
     myGame.init();
@@ -19,12 +17,4 @@ int main2() {
     return 0;
 }
 
-int main() {
 
-    std::unique_ptr<I_DeejaySoul> graphicsSystem;
-
-    graphicsSystem = std::make_unique<Soul_OpenGL>();
-    graphicsSystem->draw();
-    while (true) {
-        ;}
-}

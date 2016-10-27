@@ -10,14 +10,17 @@
 #include "PostMan.hpp"
 #include "Generic.hpp"
 
+#include "graphics/gl/VeejaySoul_OpenGL.h"
+#include "graphics/DeejaySystem.h"
+
 
 struct I_GameClientOrServer {
     virtual void handleIncomingNetwork() = 0;
     virtual void getUserInput() = 0;
     virtual void broadcastUserInput() = 0;
     virtual void broadcastStatus() = 0;
-    virtual void init()=0;
-    virtual void shutdown()=0;
+    virtual void init() = 0;
+    virtual void shutdown() = 0;
     virtual void updateGame();
     virtual ~I_GameClientOrServer();
 };
@@ -30,15 +33,15 @@ struct GameServer: public I_GameClientOrServer {
     void init() override;
     void shutdown() override;
 
-/*
-    void listenToNewConnection();
-    void downloadAllClientContents();
-    void updateGame();
-    */
+    /*
+        void listenToNewConnection();
+        void downloadAllClientContents();
+        void updateGame();
+        */
     virtual ~GameServer();
 };
 
-struct GameClient:public I_GameClientOrServer {
+struct GameClient: public I_GameClientOrServer {
     void handleIncomingNetwork() override;
     void getUserInput() override;
     void broadcastUserInput() override;
@@ -83,16 +86,17 @@ struct Game {
     HumanView toDelete_HumanView;
 
     void run();
-    void updateGame(const double&, AvatarsCollection&, const GameController&);
+    void updateGame( const double&, AvatarsCollection&, const GameController& );
     void init();
     void stop();
 
-    void downloadAllClientContents(ClientListType&, std::map<int, sf::Packet*>&, PostMan&) ;
+    void downloadAllClientContents( ClientListType&, std::map<int, sf::Packet*>&, PostMan& ) ;
     virtual ~Game();
     Game();
 
 private:
     std::unique_ptr<I_GameClientOrServer> ClientOrServer;
+    Veejay graphicsSystem;
 
 };
 

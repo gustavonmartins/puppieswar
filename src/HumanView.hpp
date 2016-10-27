@@ -10,7 +10,7 @@
 #include "graphics/I_ExtractableGraphics.h"
 #include "I_Serializable.h"
 #include "NetworkProtocol.hpp"
-#include "PostMan.hpp"
+#include "../chat/PostMan.hpp"
 
 struct HumanView: public GameView {
 

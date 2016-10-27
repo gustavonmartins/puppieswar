@@ -2262,13 +2262,13 @@
 1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/puppieswar/src/graphics/I_ExtractableGraphics.cpp
 	"I_ExtractableGraphics.h"
 
-1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/Avatar.cpp
+1477466744 source:/home/gustavo/Documents/Todelete/puppieswar/src/Avatar.cpp
 	"Avatar.hpp"
 	<cmath>
 	<iostream>
 	<SFML/Graphics.hpp>
 
-1477212248 /home/gustavo/Documents/Todelete/puppieswar/src/Avatar.hpp
+1477418304 /home/gustavo/Documents/Todelete/puppieswar/src/Avatar.hpp
 	<list>
 	<vector>
 	<SFML/Graphics.hpp>
@@ -2277,6 +2277,7 @@
 	"I_ControlsInterpreter.h"
 	"Bullet.hpp"
 	"controls/GameController.hpp"
+	"common/PartySystem.h"
 	"Moveable.hpp"
 	"I_Moveable.h"
 
@@ -2302,11 +2303,505 @@
 
 1477208109 /home/gustavo/Documents/Todelete/puppieswar/src/I_Moveable.h
 
-1477208110 /home/gustavo/Documents/Todelete/puppieswar/src/controls/GameController.hpp
+1477338579 /home/gustavo/Documents/Todelete/puppieswar/src/controls/GameController.hpp
 	<SFML/System.hpp>
-	"I_Serializable.h"
-	"I_ControlsInterpreter.h"
+	"../I_Serializable.h"
+	"../I_ControlsInterpreter.h"
 
 1477208109 /home/gustavo/Documents/Todelete/puppieswar/src/I_Serializable.h
 	<SFML/Network.hpp>
+
+1477466913 source:/home/gustavo/Documents/Todelete/puppieswar/src/AvatarsCollection.cpp
+	"AvatarsCollection.hpp"
+	<SFML/Main.hpp>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<glm/glm.hpp>
+	<vector>
+	<functional>
+	<memory>
+	<random>
+	<iostream>
+
+1477417740 /home/gustavo/Documents/Todelete/puppieswar/src/AvatarsCollection.hpp
+	<SFML/Audio.hpp>
+	"controls/GameController.hpp"
+	"GameView.hpp"
+	"I_UpdateableOnMainTick.h"
+	"I_ControlsInterpreter.h"
+	"Avatar.hpp"
+	"common/PartySystem.h"
+
+1477212248 /home/gustavo/Documents/Todelete/puppieswar/src/GameView.hpp
+	"controls/GameController.hpp"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/Bullet.cpp
+	"Bullet.hpp"
+	<iostream>
+	<string>
+	<cmath>
+	<SFML/Graphics.hpp>
+
+1477337908 source:/home/gustavo/Documents/Todelete/chat/PostMan.cpp
+	"PostMan.hpp"
+
+1477338776 /home/gustavo/Documents/Todelete/chat/PostMan.hpp
+	<algorithm>
+	<iostream>
+	<list>
+	<map>
+	<SFML/Network.hpp>
+	"../puppieswar/src/NetworkProtocol.hpp"
+
+1477212249 /home/gustavo/Documents/Todelete/puppieswar/src/NetworkProtocol.hpp
+	<iostream>
+	<SFML/Network.hpp>
+	"controls/GameController.hpp"
+
+1477466597 source:/home/gustavo/Documents/Todelete/puppieswar/src/Game.cpp
+	<SFML/System.hpp>
+	<iostream>
+	<memory>
+	"Game.hpp"
+
+1477416066 /home/gustavo/Documents/Todelete/puppieswar/src/Game.hpp
+	<SFML/System.hpp>
+	"controls/GameController.hpp"
+	"AvatarsCollection.hpp"
+	"HumanView.hpp"
+	"PostMan.hpp"
+	"Generic.hpp"
+	"graphics/gl/Soul_OpenGL.h"
+	"graphics/I_DeejaySoul.h"
+
+1477344699 /home/gustavo/Documents/Todelete/puppieswar/src/HumanView.hpp
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	<SFML/Network.hpp>
+	"controls/GameController.hpp"
+	"GameView.hpp"
+	"graphics/I_ExtractableGraphics.h"
+	"I_Serializable.h"
+	"NetworkProtocol.hpp"
+	"../chat/PostMan.hpp"
+
+1477337908 /home/gustavo/Documents/Todelete/chat/Generic.hpp
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Main.hpp>
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/GameStructure.cpp
+	"GameStructure.hpp"
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/src/GameStructure.hpp
+	<list>
+	<vector>
+	"Avatar.hpp"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/GameView.cpp
+	"GameView.hpp"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/HumanView.cpp
+	"HumanView.hpp"
+	<iostream>
+	"Generic.hpp"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/I_ControlsInterpreter.cpp
+	"I_ControlsInterpreter.h"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/I_Moveable.cpp
+	"I_Moveable.h"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/I_Serializable.cpp
+	"I_Serializable.h"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/I_UpdateableOnMainTick.cpp
+	"I_UpdateableOnMainTick.h"
+
+1477416044 source:/home/gustavo/Documents/Todelete/puppieswar/src/main_server.cpp
+	<iostream>
+	<string>
+	"Game.hpp"
+
+1477338963 /home/gustavo/Documents/Todelete/puppieswar/src/graphics/gl/Soul_OpenGL.h
+	"../I_DeejaySoul.h"
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+
+1477417225 /home/gustavo/Documents/Todelete/puppieswar/src/graphics/I_DeejaySoul.h
+	"../common/PartySystem.h"
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/src/common/I_PartyHost.h
+	<vector>
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/Moveable.cpp
+	"Moveable.hpp"
+	<iostream>
+	<cmath>
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/NetworkProtocol.cpp
+	"NetworkProtocol.hpp"
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/src/graphics/I_ExtractableGraphics.cpp
+	"I_ExtractableGraphics.h"
+
+1477339309 source:/home/gustavo/Documents/Todelete/puppieswar/src/common/I_PartyHost.cpp
+	"I_PartyHost.h"
+	"PartyGuest.h"
+	<iostream>
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/src/common/PartyGuest.h
+	<vector>
+
+1477339327 source:/home/gustavo/Documents/Todelete/puppieswar/src/common/PartyGuest.cpp
+	<stdexcept>
+	"PartyGuest.h"
+	"I_PartyHost.h"
+	<iostream>
+
+1477339345 source:/home/gustavo/Documents/Todelete/puppieswar/src/controls/GameController.cpp
+	"GameController.hpp"
+	<SFML/System.hpp>
+	"../Avatar.hpp"
+	<iostream>
+	"../NetworkProtocol.hpp"
+
+1477339386 source:/home/gustavo/Documents/Todelete/puppieswar/src/graphics/Deejay.cpp
+	<stdexcept>
+	<iostream>
+	"Deejay.h"
+	"gl/Soul_OpenGL.h"
+
+1477417248 /home/gustavo/Documents/Todelete/puppieswar/src/graphics/Deejay.h
+	<memory>
+	"../common/PartySystem.h"
+	"I_DeejaySoul.h"
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/src/graphics/gl/Mesh.cpp
+	"Mesh.h"
+	<iostream>
+
+1477339656 /home/gustavo/Documents/Todelete/puppieswar/src/graphics/gl/Mesh.h
+	<vector>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	"../../I_Moveable.h"
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/src/graphics/gl/ShaderCompiler.cpp
+	"ShaderCompiler.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/src/graphics/gl/ShaderCompiler.h
+	<glad/glad.h>
+	<string>
+	<vector>
+
+1477467041 source:/home/gustavo/Documents/Todelete/puppieswar/src/graphics/gl/Soul_OpenGL.cpp
+	"Soul_OpenGL.h"
+	<iostream>
+	<exception>
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/src/graphics/I_DeejaySoul.cpp
+	"I_DeejaySoul.h"
+	<iostream>
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/src/graphics/I_GraphicsSystem.cpp
+	"I_GraphicsSystem.h"
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/src/graphics/I_GraphicsSystem.h
+
+1477337908 source:/home/gustavo/Documents/Todelete/chat/Generic.cpp
+	"Generic.hpp"
+
+1477248255 source:/usr/include/glad/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+
+1477467041 source:/home/gustavo/Documents/Todelete/puppieswar/src/common/PartySystem.cpp
+	"PartySystem.h"
+	<iostream>
+
+1477466582 /home/gustavo/Documents/Todelete/puppieswar/src/common/PartySystem.h
+	<map>
+
+1477337908 source:/home/gustavo/Documents/ProgrammingProjects/chat/Generic.cpp
+	"Generic.hpp"
+
+1477337908 /home/gustavo/Documents/ProgrammingProjects/chat/Generic.hpp
+	<iostream>
+	<SFML/System.hpp>
+	<SFML/Main.hpp>
+
+1477337908 source:/home/gustavo/Documents/ProgrammingProjects/chat/PostMan.cpp
+	"PostMan.hpp"
+
+1477338776 /home/gustavo/Documents/ProgrammingProjects/chat/PostMan.hpp
+	<algorithm>
+	<iostream>
+	<list>
+	<map>
+	<SFML/Network.hpp>
+	"../puppieswar/src/NetworkProtocol.hpp"
+
+1477212249 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/NetworkProtocol.hpp
+	<iostream>
+	<SFML/Network.hpp>
+	"controls/GameController.hpp"
+
+1477338579 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/controls/GameController.hpp
+	<SFML/System.hpp>
+	"../I_Serializable.h"
+	"../I_ControlsInterpreter.h"
+
+1477208109 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/I_Serializable.h
+	<SFML/Network.hpp>
+
+1477208109 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/I_ControlsInterpreter.h
+
+1477466744 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/Avatar.cpp
+	"Avatar.hpp"
+	<cmath>
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1477418304 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/Avatar.hpp
+	<list>
+	<vector>
+	<SFML/Graphics.hpp>
+	"graphics/I_ExtractableGraphics.h"
+	"I_UpdateableOnMainTick.h"
+	"I_ControlsInterpreter.h"
+	"Bullet.hpp"
+	"controls/GameController.hpp"
+	"common/PartySystem.h"
+	"Moveable.hpp"
+	"I_Moveable.h"
+
+1477208110 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/I_ExtractableGraphics.h
+	<SFML/Graphics.hpp>
+	<list>
+
+1477208109 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/I_UpdateableOnMainTick.h
+
+1477212199 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/Bullet.hpp
+	<string>
+	"SFML/Graphics.hpp"
+	"graphics/I_ExtractableGraphics.h"
+	"I_UpdateableOnMainTick.h"
+	"Moveable.hpp"
+	"I_Moveable.h"
+
+1477208109 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/Moveable.hpp
+	<vector>
+	"I_Moveable.h"
+
+1477208109 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/I_Moveable.h
+
+1477466582 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/common/PartySystem.h
+	<map>
+
+1477466913 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/AvatarsCollection.cpp
+	"AvatarsCollection.hpp"
+	<SFML/Main.hpp>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<glm/glm.hpp>
+	<vector>
+	<functional>
+	<memory>
+	<random>
+	<iostream>
+
+1477417740 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/AvatarsCollection.hpp
+	<SFML/Audio.hpp>
+	"controls/GameController.hpp"
+	"GameView.hpp"
+	"I_UpdateableOnMainTick.h"
+	"I_ControlsInterpreter.h"
+	"Avatar.hpp"
+	"common/PartySystem.h"
+
+1477212248 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/GameView.hpp
+	"controls/GameController.hpp"
+
+1477208109 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/Bullet.cpp
+	"Bullet.hpp"
+	<iostream>
+	<string>
+	<cmath>
+	<SFML/Graphics.hpp>
+
+1477467264 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/common/PartySystem.cpp
+	"PartySystem.h"
+	<iostream>
+
+1477339345 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/controls/GameController.cpp
+	"GameController.hpp"
+	<SFML/System.hpp>
+	"../Avatar.hpp"
+	<iostream>
+	"../NetworkProtocol.hpp"
+
+1477549414 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/Game.cpp
+	<SFML/System.hpp>
+	<iostream>
+	<memory>
+	"Game.hpp"
+
+1477548215 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/Game.hpp
+	<SFML/System.hpp>
+	"controls/GameController.hpp"
+	"AvatarsCollection.hpp"
+	"HumanView.hpp"
+	"PostMan.hpp"
+	"Generic.hpp"
+	"graphics/gl/VeejaySoul_OpenGL.h"
+	"graphics/DeejaySystem.h"
+
+1477560504 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/HumanView.hpp
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	<SFML/Network.hpp>
+	"controls/GameController.hpp"
+	"GameView.hpp"
+	"graphics/I_ExtractableGraphics.h"
+	"I_Serializable.h"
+	"NetworkProtocol.hpp"
+	"../chat/PostMan.hpp"
+
+1477504700 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/Soul_OpenGL.h
+	"../DeejaySystem.h"
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+
+1477208109 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/GameStructure.cpp
+	"GameStructure.hpp"
+
+1477208109 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/GameStructure.hpp
+	<list>
+	<vector>
+	"Avatar.hpp"
+
+1477208109 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/GameView.cpp
+	"GameView.hpp"
+
+1477505104 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/Deejay.cpp
+	<stdexcept>
+	<iostream>
+	"Deejay.h"
+	"gl/Soul_OpenGL.h"
+
+1477504659 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/Deejay.h
+
+1477208110 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/Mesh.cpp
+	"Mesh.h"
+	<iostream>
+
+1477339656 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/Mesh.h
+	<vector>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	"../../I_Moveable.h"
+
+1477208110 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/ShaderCompiler.cpp
+	"ShaderCompiler.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1477208110 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/ShaderCompiler.h
+	<glad/glad.h>
+	<string>
+	<vector>
+
+1477467041 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/Soul_OpenGL.cpp
+	"Soul_OpenGL.h"
+	<iostream>
+	<exception>
+
+1477504299 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/I_DeejaySoul.cpp
+	"DeejaySystem.h"
+	<iostream>
+
+1477208110 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/I_ExtractableGraphics.cpp
+	"I_ExtractableGraphics.h"
+
+1477208110 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/I_GraphicsSystem.cpp
+	"I_GraphicsSystem.h"
+
+1477208110 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/I_GraphicsSystem.h
+
+1477560504 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/HumanView.cpp
+	"HumanView.hpp"
+	<iostream>
+	"Generic.hpp"
+
+1477208109 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/I_ControlsInterpreter.cpp
+	"I_ControlsInterpreter.h"
+
+1477208109 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/I_Moveable.cpp
+	"I_Moveable.h"
+
+1477208109 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/I_Serializable.cpp
+	"I_Serializable.h"
+
+1477208109 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/I_UpdateableOnMainTick.cpp
+	"I_UpdateableOnMainTick.h"
+
+1477416044 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/main_server.cpp
+	<iostream>
+	<string>
+	"Game.hpp"
+
+1477208109 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/Moveable.cpp
+	"Moveable.hpp"
+	<iostream>
+	<cmath>
+
+1477208109 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/NetworkProtocol.cpp
+	"NetworkProtocol.hpp"
+
+1477549414 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/DeejaySystem.h
+	<memory>
+	"../common/PartySystem.h"
+
+1477514054 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/DeejaySoul_OpenGL.h
+	"../DeejaySystem.h"
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+
+1477549414 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/DeejaySystem.cpp
+	<stdexcept>
+	<iostream>
+	"DeejaySystem.h"
+	"gl/VeejaySoul_OpenGL.h"
+
+1477506902 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/DeejaySoul_OpenGL.cpp
+	"DeejaySoul_OpenGL.h"
+	<iostream>
+	<exception>
+
+1477548215 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/VeejaySoul_OpenGL.h
+	"../DeejaySystem.h"
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+
+1477559213 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/VeejaySoul_OpenGL.cpp
+	"VeejaySoul_OpenGL.h"
+	<iostream>
+	<exception>
 

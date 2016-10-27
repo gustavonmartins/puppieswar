@@ -8,9 +8,10 @@
 #include "I_UpdateableOnMainTick.h"
 #include "I_ControlsInterpreter.h"
 #include "Avatar.hpp"
+#include "common/PartySystem.h"
 
 
-struct AvatarsCollection: I_ControlsInterpreter, I_ExtractableGraphics, I_UpdateableOnMainTick  {
+struct AvatarsCollection: I_ControlsInterpreter, I_ExtractableGraphics, I_UpdateableOnMainTick, PartyGuest  {
 
 private:
     void update(const double& _dt);

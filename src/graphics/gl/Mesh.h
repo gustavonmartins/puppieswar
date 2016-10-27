@@ -9,7 +9,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/ext.hpp>
 
-#include "I_Moveable.h"
+#include "../../I_Moveable.h"
 
 struct MeshGeometry {
 public:

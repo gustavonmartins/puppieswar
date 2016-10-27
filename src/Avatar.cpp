@@ -29,9 +29,13 @@ Avatar::Avatar():
     GraphicalShape.setOrigin(50,25);
     GraphicalShape.setFillColor(GraphicalColor);
     std::cout<<"Triangulo criado"<<std::endl;
+    initDataAddress(&Location);
+
 }
 
-Avatar::~Avatar() {}
+Avatar::~Avatar() {
+    std::cout<<"Destroying an avatar"<<std::endl;
+}
 
 void Avatar::interpretControls(GameController const & _gameController) {
     if (isControlled) {
