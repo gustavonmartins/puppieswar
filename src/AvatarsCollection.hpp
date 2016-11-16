@@ -27,7 +27,9 @@ public:
 
     void updateOnMainTick(double const& dt) override;
     I_ExtractableGraphics::Output extractGraphics() override;
-    void interpretControls(GameController const &) override;
+    void interpretControls(GameController &) override;
+
+    void onInitData()   override;
 
 };
 

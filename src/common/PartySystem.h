@@ -3,48 +3,55 @@
 
 #include <map>
 
-class PartyGuest;
+struct PartyGuest;
 
 struct I_PartyHost {
+    friend struct PartyGuest;
+    friend struct Veejay;
+
 public:
     I_PartyHost();
     virtual ~I_PartyHost();
 
-    virtual void byebyeGuest( PartyGuest*, void* ) = 0; //First argument is a just fool proof against passing wrong things
-    void inviteGuest( PartyGuest* );
-    virtual void welcomeGuest( PartyGuest*, void* ) = 0; //First argument is a just fool proof against passing wrong things
-    void welcomeGuestPreparation( PartyGuest*, void* );
+    virtual void acceptByeByeGuest_detailed( PartyGuest*, void* )               = 0; //First argument is a just fool proof against passing wrong things
+    virtual void acceptByeByeGuest(PartyGuest*)                                 final;
+    virtual void inviteGuest( PartyGuest* )                                     final;
 
 
 protected:
-    std::map<PartyGuest*, void*> GuestList;
+    virtual void processGuest_detailed( PartyGuest*, void* )                    =0;
+    //std::map<PartyGuest*, void*> GuestList;
 
 private:
+    //virtual void acceptGuest( PartyGuest*, void* )                              final; //First argument is a just fool proof against passing wrong things
 
 };
 
+//***************************************************************************************
+
 struct PartyGuest {
+    friend struct I_PartyHost;
 public:
     PartyGuest();
     virtual ~PartyGuest();
 
-    void joinParty();
-    void receiveInvitationTo( I_PartyHost* const );
-
-//protected:
-    void initDataAddress( void* );
-    void inviteGuest( PartyGuest* myGuest );
-
 protected:
+    //virtual void initDataAddress()                                              final;
+    virtual void inviteGuest( PartyGuest* myGuest )                             final;
+    virtual void leaveParty()                                                   final;
+    virtual void onInitData()                                                   =0;
+    virtual void receiveInvitationTo( I_PartyHost* const )                      final;
+
+    void* myData;
 
 
 private:
 
+    virtual void joinParty()                                                    final;
 
-    void leaveParty();
 
     bool alreadyJoined;
-    void* myData;
+
     I_PartyHost* myHost;
 };
 

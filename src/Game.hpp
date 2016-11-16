@@ -11,7 +11,7 @@
 #include "Generic.hpp"
 
 #include "graphics/gl/VeejaySoul_OpenGL.h"
-#include "graphics/DeejaySystem.h"
+#include "graphics/VeejaySystem.h"
 
 
 struct I_GameClientOrServer {
@@ -62,6 +62,8 @@ struct GameClient: public I_GameClientOrServer {
 struct Game {
 
     std::string answer;
+    std::string answerGraphics;
+    bool is3dMode;
     bool isServer;
     bool clientPlaysOnline;
 
@@ -86,13 +88,14 @@ struct Game {
     HumanView toDelete_HumanView;
 
     void run();
-    void updateGame( const double&, AvatarsCollection&, const GameController& );
+    void updateGame( const double&, AvatarsCollection&, GameController& );
     void init();
     void stop();
 
     void downloadAllClientContents( ClientListType&, std::map<int, sf::Packet*>&, PostMan& ) ;
     virtual ~Game();
     Game();
+
 
 private:
     std::unique_ptr<I_GameClientOrServer> ClientOrServer;

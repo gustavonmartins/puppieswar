@@ -8,8 +8,13 @@ public:
 
     enum class GraphicsSystemType {OpenGL,Direct3D,SFML};
 
-    I_GraphicsSystem();
-    virtual ~I_GraphicsSystem();
+    I_GraphicsSystem::I_GraphicsSystem() {
+    //ctor
+	}
+
+	I_GraphicsSystem::~I_GraphicsSystem() {
+    //dtor
+	}
 
     virtual void hookToGraphicsSystem(I_HookableToGraphics*)=0;
     virtual void unhookToGraphicsSystem(I_HookableToGraphics*)=0;

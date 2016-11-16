@@ -1,14 +1,14 @@
 #ifndef I_CONTROLSINTERPRETER_H
 #define I_CONTROLSINTERPRETER_H
 
-class GameController;
+struct GameController;
 
 class I_ControlsInterpreter {
 public:
-    I_ControlsInterpreter();
-    virtual ~I_ControlsInterpreter();
+    I_ControlsInterpreter() {};
+    virtual ~I_ControlsInterpreter() {};
 
-    virtual void interpretControls(GameController const &)=0;
+    virtual void interpretControls(GameController &)=0;
 
 protected:
 

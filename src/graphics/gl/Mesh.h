@@ -9,7 +9,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/ext.hpp>
 
-#include "../../I_Moveable.h"
+#include "MoveableSystem.hpp"
 
 struct MeshGeometry {
 public:
@@ -45,6 +45,7 @@ public:
     Mesh(MeshGeometry* inputGeo);
     virtual ~Mesh();
 
+    I_Moveable* getAttachee();
     void attachToPosition(I_Moveable*);
     void draw(const GLuint&);
     void draw(const glm::mat4&, const GLuint&);

@@ -5,8 +5,9 @@
 
 class I_Serializable {
 public:
-    I_Serializable();
-    virtual ~I_Serializable();
+    I_Serializable() {};
+
+	~I_Serializable() {};
 
     typedef sf::Packet DataType;
 

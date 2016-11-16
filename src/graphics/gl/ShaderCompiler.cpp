@@ -91,7 +91,7 @@ GLuint ShaderCompiler::compileProgram() {
         glDeleteShader(currentShader);
     }
     ShaderList.clear();
-
+    std::cout<<"Shader compilation successful, ID: "<<ProgramID<<std::endl;
     return ProgramID;
 }
 

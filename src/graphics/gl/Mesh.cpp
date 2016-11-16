@@ -129,6 +129,10 @@ void Mesh::attachToPosition(I_Moveable* objectToTrack) {
     }
 }
 
+I_Moveable* Mesh::getAttachee(){
+    return _currentobjectToTrack;
+}
+
 void Mesh::refreshMatrixOfObjectAttachedTo(glm::mat4& MatrixToChange) {
     MatrixToChange =
         glm::translate(glm::mat4(1.0f), glm::vec3(_currentobjectToTrack->getPosition().axis_one, _currentobjectToTrack->getPosition().axis_two, _currentobjectToTrack->getPosition().axis_three)) *

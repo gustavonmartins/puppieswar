@@ -3,7 +3,7 @@
 	<FileVersion major="1" minor="6" />
 	<Project>
 		<Option title="Puppies War" />
-		<Option execution_dir="D:/dev/projects/cpp/SFML Teamplate/" />
+		<Option execution_dir="bin/Release/" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -14,13 +14,15 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
-					<Add option="-std=c++14" />
+					<Add directory="../chat" />
+					<Add directory="src" />
 				</Compiler>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 			<Add directory="../chat" />
+			<Add directory="src" />
 		</Compiler>
 		<Linker>
 			<Add library="libglfw" />
@@ -50,13 +52,10 @@
 		<Unit filename="src/HumanView.cpp" />
 		<Unit filename="src/HumanView.hpp" />
 		<Unit filename="src/I_Controllable.hpp" />
-		<Unit filename="src/I_ControlsInterpreter.cpp" />
 		<Unit filename="src/I_ControlsInterpreter.h" />
 		<Unit filename="src/I_Moveable.cpp" />
 		<Unit filename="src/I_Moveable.h" />
-		<Unit filename="src/I_Serializable.cpp" />
 		<Unit filename="src/I_Serializable.h" />
-		<Unit filename="src/I_UpdateableOnMainTick.cpp" />
 		<Unit filename="src/I_UpdateableOnMainTick.h" />
 		<Unit filename="src/Moveable.cpp" />
 		<Unit filename="src/Moveable.hpp" />
@@ -68,9 +67,7 @@
 		<Unit filename="src/controls/GameController.hpp" />
 		<Unit filename="src/graphics/DeejaySystem.cpp" />
 		<Unit filename="src/graphics/DeejaySystem.h" />
-		<Unit filename="src/graphics/I_ExtractableGraphics.cpp" />
 		<Unit filename="src/graphics/I_ExtractableGraphics.h" />
-		<Unit filename="src/graphics/I_GraphicsSystem.cpp" />
 		<Unit filename="src/graphics/I_GraphicsSystem.h" />
 		<Unit filename="src/graphics/gl/DeejaySoul_OpenGL.h" />
 		<Unit filename="src/graphics/gl/Mesh.cpp" />

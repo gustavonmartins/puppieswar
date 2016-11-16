@@ -4,10 +4,6 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 
-
-
-
-
 Avatar::Avatar():
 //    Moveable(_posx,_posy,_heading,_SpeedTotal),
 
@@ -29,18 +25,19 @@ Avatar::Avatar():
     GraphicalShape.setOrigin(50,25);
     GraphicalShape.setFillColor(GraphicalColor);
     std::cout<<"Triangulo criado"<<std::endl;
-    initDataAddress(&Location);
 
 }
 
 Avatar::~Avatar() {
-    std::cout<<"Destroying an avatar"<<std::endl;
+    std::cout<<"Avatar: Getting destroyed: "<<this<<" with data: "<<&Location<<std::endl;
+    myData=nullptr;
+    leaveParty();
 }
 
-void Avatar::interpretControls(GameController const & _gameController) {
+void Avatar::interpretControls(GameController & _gameController) {
     if (isControlled) {
         setSpeedComposition(0,0,0);
-        setOrientation(_gameController.HorizontalStatus,0,0);
+        setOrientation(_gameController.HorizontalStatus,_gameController.VerticalStatus,0);
 
 
         if (_gameController.GoLeft) {
@@ -111,7 +108,8 @@ void Avatar::shoot() {
         ShotBullets.rbegin()->setPosition(getPosition());
         ShotBullets.rbegin()->setOrientation(getOrientation());
         ShotBullets.rbegin()->setSpeedComposition(1.0,0,0);
-        ShotBullets.rbegin()->setMaxSpeed(1000);
+        ShotBullets.rbegin()->setMaxSpeed(100);
+        inviteGuest(&(*ShotBullets.rbegin()));
 
         TimeToWaitUntilNextShot=ShootRateInSeconds;
     }
@@ -182,4 +180,10 @@ void Avatar::setSpeedDelta(double const& velFront,double const& velLat,double co
 
 I_Moveable::ExchangeType& Avatar::getOrientation() {
     return Location.getOrientation();
+}
+
+
+//******************************************************************************************
+void Avatar::onInitData() {
+    myData=&Location;
 }

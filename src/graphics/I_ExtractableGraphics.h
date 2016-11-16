@@ -8,12 +8,13 @@ class I_ExtractableGraphics {
 private:
 
 public:
-    I_ExtractableGraphics();
-    virtual ~I_ExtractableGraphics();
+    I_ExtractableGraphics() {}
+
+    ~I_ExtractableGraphics() {}
 
     typedef sf::Drawable* PartialOutput;
     typedef std::list<PartialOutput> Output;
-    virtual Output extractGraphics()=0 ;
+    virtual Output extractGraphics() = 0 ;
 
 protected:
 

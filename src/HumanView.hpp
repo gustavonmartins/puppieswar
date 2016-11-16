@@ -10,41 +10,49 @@
 #include "graphics/I_ExtractableGraphics.h"
 #include "I_Serializable.h"
 #include "NetworkProtocol.hpp"
-#include "../chat/PostMan.hpp"
+#include "PostMan.hpp"
+
 
 struct HumanView: public GameView {
 
     virtual ~HumanView();
     HumanView() = default;
-    HumanView(unsigned int const&, unsigned int const& );
+
 
     sf::Event m_Event;
     sf::RenderWindow m_RenderWindow;
     sf::View m_Camera;
 
     PostMan myPostMan;
-    bool tryConnecting = true;
-
     void askWhereToConnect();
-    void createWindow(unsigned int const&, unsigned int const&  );
-    void generateGraphics(sf::RenderWindow&, I_ExtractableGraphics&);
-    void getUserInput(sf::RenderWindow&, sf::Event&, GameController&);
+    bool tryConnecting = true;
     int tryToConnect();
-    void uploadData(I_Serializable::DataType*);
+    void uploadPacketToAllConnected(I_Serializable::DataType*);
+
+
+    void init();
+
+    void generateGraphics( I_ExtractableGraphics&);
+
+    void getUserInput();
+    GameController& getController();
+
+
 
 private:
+
+    void createWindow( unsigned int const&, unsigned int const&  );
+
     void extractGraphics(I_ExtractableGraphics&, sf::RenderWindow&);
+    void generateGraphics(I_ExtractableGraphics&, sf::RenderWindow&);
+    void getUserInput(sf::RenderWindow&, sf::Event&, GameController&);
+
     sf::Vector2i mousePosition;
     sf::Vector2i myWindowCenter;
 
     bool WindowIsActive;
     bool mouserightPressed = false;
-    std::string IPAddress;
-    int Port;
-
-
 };
-
 
 
 #endif // HUMAN_HPP_INCLUDED

@@ -4,8 +4,8 @@
 
 class I_UpdateableOnMainTick {
 public:
-    I_UpdateableOnMainTick();
-    virtual ~I_UpdateableOnMainTick();
+    I_UpdateableOnMainTick(){};
+    virtual ~I_UpdateableOnMainTick(){};
 
     virtual void updateOnMainTick(double const &)=0;
 

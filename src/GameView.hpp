@@ -4,19 +4,11 @@
 #include "controls/GameController.hpp"
 
 
-
-
 struct GameView {
-
     virtual ~GameView();
 
+protected:
     GameController m_Controller;
-
-    void run();
-
-    void update();
-    void receiveFromServer();
-    void sendToServer();
 
 };
 

@@ -66,9 +66,23 @@ void Game::run() {
 
         if ( timerForUpLoad.getTimerApproval( 1.2 * networkprotocol::refreshInterval, false ) ) {
             if ( !isServer ) {
-                toDelete_HumanView.getUserInput( toDelete_HumanView.m_RenderWindow, toDelete_HumanView.m_Event, toDelete_HumanView.m_Controller );
+                if (is3dMode) {
+
+                    graphicsSystem.getUserInput();
+
+                } else {
+                    toDelete_HumanView.getUserInput();
+                }
+                //
+
                 if ( clientPlaysOnline ) {
-                    toDelete_HumanView.uploadData( toDelete_HumanView.m_Controller.serialize() );
+                    
+                    if (is3dMode){toDelete_HumanView.uploadPacketToAllConnected( graphicsSystem.getController().serialize() );}
+                    else {
+                    
+                        toDelete_HumanView.uploadPacketToAllConnected( toDelete_HumanView.getController().serialize() );
+                    
+                    }
                 }
             }
         }
@@ -79,10 +93,20 @@ void Game::run() {
                 updateGame( dt_sec, AvtsCollection, ClientList.rbegin()->second.Controls );
             }
         } else {
-            updateGame( dt_sec, AvtsCollection, toDelete_HumanView.m_Controller );
+            if (is3dMode) {
+                updateGame( dt_sec, AvtsCollection, graphicsSystem.getController() );
+            } else {
+                updateGame( dt_sec, AvtsCollection, toDelete_HumanView.getController() );
+            }
+
+
         }
-        toDelete_HumanView.generateGraphics( toDelete_HumanView.m_RenderWindow, AvtsCollection );
-        graphicsSystem.update();
+
+        if (is3dMode) {
+            graphicsSystem.update();
+        } else {
+            toDelete_HumanView.generateGraphics( AvtsCollection);
+        }
     }
 }
 
@@ -107,11 +131,10 @@ void Game::downloadAllClientContents( ClientListType& ClientList, std::map<int, 
 
     for ( auto& currentClient : ClientList ) {
         networkprotocol::convertPacketToTargetType( currentClient.second.DownPacket, currentClient.second.Controls );
-        //copiedControl=currentClient.second.Controls;
     }
 }
 
-void Game::updateGame( const double& dt_sec, AvatarsCollection& _AvtCollection, const GameController& _gameController ) {
+void Game::updateGame( const double& dt_sec, AvatarsCollection& _AvtCollection, GameController& _gameController ) {
     _AvtCollection.interpretControls( _gameController );
     _AvtCollection.updateOnMainTick( dt_sec );
 }
@@ -146,13 +169,26 @@ void Game::init() {
         }
     }
 
-    graphicsSystem.setSoul( Veejay::SoulType::OpenGL );
-    graphicsSystem.init();
-    graphicsSystem.inviteGuest( &AvtsCollection );
-    AvtsCollection.joinParty();
+    std::cout << "Graphics at 2d or 3d? (2d/3d): " << std::endl;
+    std::cin >> answerGraphics;
+
+    if ( answerGraphics == "2d" ) {
+        is3dMode = false;
+        std::cout << "Being 2d " << std::endl;
+        toDelete_HumanView.init();
+    } else if ( answerGraphics == "3d" ) {
+        is3dMode = true;
+        std::cout << "Being 3d" << std::endl;
+        graphicsSystem.setSoul( Veejay::SoulType::OpenGL );
+        graphicsSystem.initSoul();
+        graphicsSystem.inviteGuest( &AvtsCollection );
+    }
 
 
-    toDelete_HumanView.createWindow( 700, 500 );
+
+
+
+
 
 }
 

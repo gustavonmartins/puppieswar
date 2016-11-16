@@ -20,7 +20,7 @@ Bullet::Bullet():
     GraphicalShape.setRadius(GraphicalRadius);
 }
 
-Bullet::~Bullet(){}
+Bullet::~Bullet() {}
 
 void Bullet::syncGraphics() {
     GraphicalShape.setPosition(getPosition().axis_one,getPosition().axis_two);
@@ -95,4 +95,9 @@ void Bullet::setSpeedDelta(double const& velFront,double const& velLat,double co
 
 I_Moveable::ExchangeType& Bullet::getOrientation() {
     return Location.getOrientation();
+}
+
+//************************** PARTYGUEST INTERFACE
+void Bullet::onInitData() {
+    myData=&Location;
 }

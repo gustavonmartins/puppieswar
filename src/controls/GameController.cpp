@@ -21,9 +21,9 @@ GameController::GameController():
     SelectNext(0),
     HorizontalStatus(0) {}
 
-GameController::~GameController(){}
+GameController::~GameController() {}
 
-void GameController::clear(void) {
+void GameController::clearControls(void) {
     PrepareAction=false;
     RequestAction=false;
     PrepareAction2=false;
@@ -36,13 +36,25 @@ void GameController::clear(void) {
     SelectNext=0;
 }
 
-void GameController::control(I_ControlsInterpreter & thisControllable) const {
+void GameController::control(I_ControlsInterpreter & thisControllable) {
     thisControllable.interpretControls(*this);
 }
 
-void GameController::setMouseRotation(const sf::Vector2i& _MouseInput) {
+void GameController::setMouse(const sf::Vector2i& _MouseInput) {
     HorizontalStatus+=_MouseInput.x*MouseSpeed;
+    VerticalStatus+=_MouseInput.y*MouseSpeed;
 }
+
+void GameController::setMouseDelta(const int& xDelta,const int& yDelta) {
+    HorizontalStatus+=xDelta*MouseSpeed;
+    VerticalStatus+=yDelta*MouseSpeed;
+}
+
+void GameController::setMouse(const int& xPos,const int& yPos) {
+    HorizontalStatus=xPos*MouseSpeed;
+    VerticalStatus=yPos*MouseSpeed;
+}
+
 //};
 
 I_Serializable::DataType* GameController::serialize() {
@@ -55,4 +67,3 @@ I_Serializable::DataType* GameController::serialize() {
     return &UpData;
 }
 void GameController::deserialize(I_Serializable::DataType*) {}
-

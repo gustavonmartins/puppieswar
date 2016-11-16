@@ -23,13 +23,16 @@ struct GameController: I_Serializable {
 
     int SelectNext;
     int HorizontalStatus;
+    int VerticalStatus;
 
     GameController();
     virtual ~GameController();
 
-    void control(I_ControlsInterpreter &) const;
-    void clear(void);
-    void setMouseRotation(const sf::Vector2i&);
+    void control(I_ControlsInterpreter &);
+    void clearControls(void);
+    void setMouse(const sf::Vector2i&);
+    void setMouseDelta(const int&,const int&);
+    void setMouse(const int&,const int&);
 
     I_Serializable::DataType* serialize() override;
     void deserialize(I_Serializable::DataType*) override;

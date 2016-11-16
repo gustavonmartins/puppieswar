@@ -6,11 +6,12 @@
 
 #include "graphics/I_ExtractableGraphics.h"
 #include "I_UpdateableOnMainTick.h"
-#include "Moveable.hpp"
-#include "I_Moveable.h"
+#include "MoveableSystem.hpp"
+
+#include "common/PartySystem.h"
 
 
-struct Bullet:I_Moveable, I_ExtractableGraphics, I_UpdateableOnMainTick {
+struct Bullet:I_Moveable, I_ExtractableGraphics, I_UpdateableOnMainTick,PartyGuest {
 
     Bullet(const double&, const double&, const double& );
 
@@ -61,6 +62,9 @@ struct Bullet:I_Moveable, I_ExtractableGraphics, I_UpdateableOnMainTick {
 
     I_ExtractableGraphics::Output extractGraphics() override;
     void updateOnMainTick(double const&) override;
+
+    //******************** PARYGUEST
+    void onInitData() override;
 
 private:
     void syncGraphics();

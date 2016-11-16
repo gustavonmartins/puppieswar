@@ -39,7 +39,7 @@ I_ExtractableGraphics::Output AvatarsCollection::extractGraphics() {
     return output;
 }
 
-void AvatarsCollection::interpretControls( GameController const& currentControl ) {
+void AvatarsCollection::interpretControls( GameController& currentControl ) {
 
     if ( currentControl.RequestAction2 == true ) {
         std::cout << "Duplicating" << std::endl;
@@ -47,9 +47,9 @@ void AvatarsCollection::interpretControls( GameController const& currentControl 
 
         PartyGuest* ptrToLastOne = &ListOfAvatars.back();
         inviteGuest( ptrToLastOne );
-        ptrToLastOne->joinParty();
 
-        ListOfAvatars.rbegin()->setPosition( 600, 300, 0 );
+
+        ListOfAvatars.rbegin()->setPosition( -20, -10, -1 );
         ListOfAvatars.rbegin()->setOrientation( 0, 0, 0 );
         ListOfAvatars.rbegin()->setMaxSpeed( 100 );
         ListOfAvatars.rbegin()->setControlled( true );
@@ -60,4 +60,9 @@ void AvatarsCollection::interpretControls( GameController const& currentControl 
         currentControllable.interpretControls( currentControl );
     }
 
+    currentControl.clearControls();
+}
+
+void AvatarsCollection::onInitData() {
+    myData=nullptr;
 }

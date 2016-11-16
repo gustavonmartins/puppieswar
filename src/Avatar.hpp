@@ -13,8 +13,7 @@
 #include "controls/GameController.hpp"
 #include "common/PartySystem.h"
 
-#include "Moveable.hpp"
-#include "I_Moveable.h"
+#include "MoveableSystem.hpp"
 
 struct Avatar:I_Moveable, I_ExtractableGraphics, I_UpdateableOnMainTick, I_ControlsInterpreter,PartyGuest {
 
@@ -53,7 +52,7 @@ public:
     I_ExtractableGraphics::Output extractGraphics() override;
     void updateOnMainTick(double const &) override;
 
-    void interpretControls(GameController const & );
+    void interpretControls(GameController & ) override;
     void syncGraphics();
     void setControlled(const bool& );
 
@@ -72,6 +71,9 @@ public:
     I_Moveable::ExchangeType& getPosition() override;
     double& getHeading() override;
     I_Moveable::ExchangeType& getOrientation() override;
+
+    //**********************************************
+    void onInitData()   override;
 
 private:
     double ShootRateInHerz;
